@@ -6,6 +6,7 @@ import './index.css';
 import MainLayout from './components/MainLayout';
 import Show from './pages/Show';
 
+const queryClient = new QueryClient();
 function App() {
   return (
     <QueryClientProvider client={queryClient}>

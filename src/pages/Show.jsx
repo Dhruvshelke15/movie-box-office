@@ -6,7 +6,7 @@ import { getShowById } from '../api/tvmaze';
 const Show = () => {
   const { showId } = useParams();
   const { data: showData, error: showError } = useQuery({
-    queryKey: [show, showId],
+    queryKey: ['show', showId],
     queryFn: () => getShowById(showId),
   });
 
