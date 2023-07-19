@@ -10,7 +10,9 @@ const Cast = ({ cast }) => {
             />
           </div>
           <div>
-            {person.name} | {character.name} {voice && '| Voiceover'}
+            {person.name} |{' '}
+            {person.name === character.name ? 'Themselves' : character.name}{' '}
+            {voice && '| Voiceover'}
           </div>
         </div>
       ))}
