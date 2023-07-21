@@ -27,7 +27,7 @@ const SearchForm = ({ onSearch }) => {
     <form onSubmit={onSubmit}>
       <SearchInput
         type="text"
-        placeholder="Search for somthing..."
+        placeholder="Search for something..."
         value={searchStr}
         onChange={onStrInputChange}
       />
@@ -48,7 +48,7 @@ const SearchForm = ({ onSearch }) => {
         />
       </RadiosWrapper>
       <SearchButtonWrapper>
-        <button type="button">Update random</button>
+        <button type="button">Search</button>
       </SearchButtonWrapper>
     </form>
   );
