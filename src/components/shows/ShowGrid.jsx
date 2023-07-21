@@ -1,4 +1,3 @@
-import { useEffect, useReducer } from 'react';
 import ShowCard from './ShowCard';
 import { useStarredShows } from '../../lib/useStarredShows';
 
